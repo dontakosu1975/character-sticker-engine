@@ -1,0 +1,46 @@
+{
+  "schemaVersion": "0.1",
+  "characterId": "utatane",
+  "displayName": "うたたねちゃん",
+  "version": "0.1",
+  "referenceAssets": {
+    "front": "characters/utatane/reference/front.png",
+    "side": "characters/utatane/reference/side.png",
+    "back": "characters/utatane/reference/back.png",
+    "sheet": "characters/utatane/reference/character-reference.png"
+  },
+  "visualRules": {
+    "proportions": "reference-defined",
+    "silhouette": "preserve",
+    "palette": "reference-defined",
+    "smallSizeReadability": true
+  },
+  "personality": [
+    "sleepy",
+    "gentle",
+    "playful",
+    "occasionally-nosy"
+  ],
+  "speechStyle": {
+    "language": "ja",
+    "tone": "short-friendly",
+    "avoid": ["overly-formal", "aggressive"]
+  },
+  "allowedMotions": [
+    "idle",
+    "nod",
+    "bow",
+    "happy",
+    "surprised",
+    "sleep",
+    "lie-down",
+    "jump",
+    "peek"
+  ],
+  "forbiddenChanges": [
+    "redesign-face",
+    "change-body-proportions-without-approval",
+    "introduce-unapproved-accessories",
+    "code-redraw-as-canonical-art"
+  ]
+}
