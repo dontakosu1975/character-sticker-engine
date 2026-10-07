@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "0.1",
+  "setId": "utatane-daily-01",
+  "characterId": "utatane",
+  "platform": "line-static",
+  "strategy": "daily-balanced-v1",
+  "count": 16,
+  "concept": "毎日使える、ちょっと眠そうなペンギン",
+  "stickers": [
+    {
+      "id": "01-acknowledge",
+      "text": "了解！",
+      "communicationTag": "acknowledge",
+      "emotion": "positive",
+      "motion": "nod",
+      "intensity": 0.7,
+      "assetStatus": "planned"
+    },
+    {
+      "id": "02-thanks",
+      "text": "ありがとう",
+      "communicationTag": "thanks",
+      "emotion": "happy",
+      "motion": "bow",
+      "intensity": 0.8,
+      "assetStatus": "planned"
+    },
+    {
+      "id": "03-character-peek",
+      "text": "じーっ…",
+      "communicationTag": "character",
+      "emotion": "curious",
+      "motion": "peek",
+      "intensity": 0.6,
+      "assetStatus": "planned"
+    }
+  ],
+  "approval": {
+    "planApproved": false,
+    "artApproved": false,
+    "submissionApproved": false,
+    "releaseApproved": false
+  }
+}
